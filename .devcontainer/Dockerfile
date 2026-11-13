@@ -1,7 +1,7 @@
 # Base image from the Dev Containers project. It already includes PHP,
 # Composer, Xdebug and common CLI tools. Change VARIANT in
 # docker-compose.yml to pick another PHP version (e.g. 8.4-bookworm).
-ARG VARIANT=8.3-bookworm
+ARG VARIANT=8.2-bookworm
 FROM mcr.microsoft.com/devcontainers/php:1-${VARIANT}
 
 # The base image ships a Yarn apt source whose signing key is no longer
