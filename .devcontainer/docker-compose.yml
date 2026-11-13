@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        VARIANT: 8.3-bookworm
+        VARIANT: 8.2-bookworm
     volumes:
       # Mounts the parent of the repo folder, as the Dev Containers PHP templates do
       - ../..:/workspaces:cached
